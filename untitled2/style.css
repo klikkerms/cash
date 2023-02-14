@@ -1,9 +1,10 @@
 body {
     width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
-    border: 30px solid;
-    color:hotpink;
+    border: 25px solid;
+    color: #FFC373;
 }
 
 html{
@@ -14,7 +15,7 @@ html{
 
 .header_top{
     width: 100%;
-    height: 250px;
+    height: 100px;
     /*background-color: black;*/
     display: flex;
     flex-wrap: wrap;
@@ -22,37 +23,43 @@ html{
 
 .header_info{
     width: 100%;
-    height: 60px;
-    background-color: aqua;
+    height: 50%;
+    /*background-color: aqua;*/
+    display: flex;
+    justify-content: center;
+
 }
 
 .menu_slot{
     width: 100%;
-    height: 90px;
-    background-color: grey;
+    height: 30%;
+    /*background-color: grey;*/
+    display: flex;
+    justify-content: center;
 }
 
 .content_one{
-    width: 1200px;
-    height: 700px;
-    background-color: bisque;
+    width: 65%;
+    height: 800px;
+    /*background-color: bisque;*/
     margin: auto;
     display: flex;
+    justify-content: center;
 }
 
 
 .content_info{
-    width: 500px;
-    height: 200px;
-    background-color: aliceblue;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px ;
+    display: block;
+    width: 55%;
+    height: 15%;
+    /*background-color: aliceblue;*/
+    justify-content: center;
+    margin-top: 70px ;
+    text-align: -webkit-center;
 }
 
 .content_two{
-    width: 1200px;
+    width: 65%;
     height: 700px;
     background-color: brown;
     margin: auto;
@@ -60,7 +67,7 @@ html{
 }
 
 .service{
-    width: 1200px;
+    width: 65%;
     height: 700px;
     background-color: chartreuse;
     margin: auto;
@@ -68,7 +75,7 @@ html{
 }
 
 .material{
-    width: 1200px;
+    width: 65%;
     height: 700px;
     background-color: yellow;
     margin: auto;
@@ -76,7 +83,7 @@ html{
 }
 
 .contact{
-    width: 1200px;
+    width: 65%;
     height: 700px;
     background-color: olive;
     margin: auto;
@@ -91,10 +98,117 @@ footer{
 }
 
 .photo_section{
-    background-color: coral;
+    /* background-color: coral; */
+    background-image: url('src/opa.jpg');
+    background-size: cover;
+}
+
+.content_info_text{
+
+    width: 70%;
+    display: flex;
+    /*background-color: grey;*/
+    justify-content: center;
+}
+
+#zag{
+    color: #FFC373;
+    margin: auto;
+    font-size: 55px;
+}
+
+#zag2{
+   font-size: 30px;
+    color: #FFC373;
 }
 
 
+.number_phone {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 8.9%;
+
+}
+#tel{
+    /*margin: auto;*/
+    /*padding-left: 15%;*/
+    /*padding-top: 1.3%;*/
+    color: white;
+    font-size: 32px;
+}
+
+.social_logo{
+    width: 50%;
+    height: 100%;
+    /*background-color:violet ;*/
+    /*margin-left: 30%;*/
+    display: flex;
+    flex-direction: row-reverse;
+    /*justify-content: center;*/
+    align-items: center;
+    padding-right: 4%;
+}
+
+
+.logo_inst{
+    width: 33px;
+    height: 33px;
+    background-color: yellow;
+}
+
+.logo_vk{
+    width: 33px;
+    height: 33px;
+    background-color: teal;
+}
+
+.logo_tel{
+    width: 33px;
+    height: 33px;
+    background-color:chocolate;
+}
+
+
+
+.social_logo_in{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    /*background-color: silver;*/
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 11.7%;
+}
+
+
+
+.menu_slot_in{
+    width: 65%;
+    height: 100%;
+    /*background-color: white;*/
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+}
+
+.tag{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.header_info_in{
+    width: 65%;
+    height: 100%;
+    /*background-color: cadetblue;*/
+    display: flex;
+    border-bottom: 1px solid;
+}
 
 
 
